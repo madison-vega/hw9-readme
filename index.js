@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generate = require('.utils/generate');
+const generate = require('.utils/generateMarkdown');
 
 // the questions that are prompted 
 const questions = [
