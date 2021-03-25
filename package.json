@@ -1,0 +1,23 @@
+{
+  "name": "hw9-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madison-vega/hw9-readme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madison-vega/hw9-readme/issues"
+  },
+  "homepage": "https://github.com/madison-vega/hw9-readme#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
