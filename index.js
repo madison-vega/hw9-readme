@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generate = require('.utils/generateMarkdown');
+const generate = require('.utils/generateMarkdown.js');
 
 // the questions that are prompted 
 const questions = [
@@ -53,7 +53,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Pick a license for your project.',
-        choices: ['Unlicense', 'MIT', 'GNU GPLv3' ]
+        choices: ['Unlicense', 'MIT', 'GNU GPLv3']
 
 
 
@@ -86,18 +86,25 @@ const questions = [
         message: 'What is the best contact email for you?',
 
     },
-  
+
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer
-        .prompt(questions).then(error)
-}
-
+        .prompt(questions).then((data) => {
+            fs.writeFile('README.md', generateMarkdown(), (error) => {
+                return console.error(error);
+            }
+            )
+        });
+    };
 // Function call to initialize app
 init();
 
