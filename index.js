@@ -35,7 +35,7 @@ const questions = [
 
         type: 'input',
         name: 'usage',
-        message: 'How do you use your project??',
+        message: 'How do you use your project?',
 
 
 
@@ -45,7 +45,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Pick a license for your project.',
-        choices: ['Unlicense', 'MIT', 'GNU GPLv3,', 'None']
+        choices: ['Unlicense', 'MIT', 'GNU GPLv3,']
 
 
 
