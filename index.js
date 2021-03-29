@@ -24,15 +24,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'table',
-        message: 'What is the table of contents?',
-
-
-
-
-    },
-    {
-        type: 'input',
         name: 'install',
         message: 'How do you install your project?',
 
@@ -54,7 +45,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Pick a license for your project.',
-        choices: ['Unlicense', 'MIT', 'GNU GPLv3']
+        choices: ['Unlicense', 'MIT', 'GNU GPLv3,', 'None']
 
 
 
@@ -62,8 +53,8 @@ const questions = [
     {
 
         type: 'input',
-        name: 'contribute',
-        message: 'Who were your contributers?',
+        name: 'credit',
+        message: 'What credits would you like to give?',
 
 
 
