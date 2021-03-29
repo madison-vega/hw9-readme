@@ -55,7 +55,7 @@ SOFTWARE.
 
 ## Tests
 
-I tested my project periodically thrughout development by running the file several times to verify bugs and fix the issues.  
+I tested my project periodically thrughout development by running the file several times to verify bugs and fix the issues.  I also used the program to create this Readme, with some added content due to the fact I could not get it fully functional. 
 
 ## Questions
 
